@@ -1,0 +1,243 @@
+@import"./general";
+@import"./variables";
+@import"./mainIndex";
+
+//Inicio de estilo proyectos.html
+.mainProyects {
+    font-family: 'kalam', cursive;
+    section {
+     padding-top: 15px;
+        .relleno {
+            margin: 5px; 
+            font-size: 130%;
+        }
+    }
+    .futureProyect {
+        font-family: 'kalam', cursive;
+        font-size: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .albums {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            text-align: center;
+            img {
+                display: block; 
+                margin: 0 auto; 
+                max-width: 100%; 
+            }
+        }
+    }
+}
+//Estilos de sobre-la-pagina.html
+.about {
+    font-family: 'kalam', cursive;
+    .pastilla {
+        margin-top: 1rem;
+        border: 2px;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 40px;
+        background-color: $color-content;
+    }
+    .container1 {
+        font-family: 'kalam', cursive;
+        font-size: 1.5rem;
+    }
+    .container2 {
+        font-family: 'kalam', cursive;
+        font-size: 1.5rem;
+    }
+    .container3 {
+        font-family: 'kalam', cursive;
+        font-size: 1.5rem;
+    }
+}
+//Estilos de sobre-mi.html
+.biografia {
+    .intro {
+        font-family: 'kalam', cursive;
+        font-size: 130%;
+    }
+    .example {
+        font-family: 'kalam', cursive;
+        font-size: 130%;
+        background-color: $color-content;
+        border-radius: 40px;
+        padding: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    figure {
+        font-family: 'kalam', cursive;
+        font-size: 1.5rem;
+        padding-top: 20px;
+        border-radius: 40px;
+        img {
+            border: 2px solid #10dc76;
+            padding: 10px;
+        }
+    }
+}
+//Estilos de tiers.html
+.ctbContent {
+    font-family: 'kalam', cursive;
+    .example {
+        margin-top: 1rem;
+        margin-bottom: 20px;
+        font-size: 130%;
+        background-color: $color-content;
+        border-radius: 40px;
+        padding: 20px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .carousel-inner .carousel-item img {
+        display: block;
+        margin: 0 auto;
+    }
+    .t1 {
+        animation-name: extreme;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        &:hover {
+            color: #fff;
+            text-shadow: 0 0 5px $tier-color1,
+            0 0 25px $tier-color1,
+            0 0 50px $tier-color1,
+            0 0 100px$tier-color1;
+        }
+    }
+    .t2 { 
+        animation-name: epic;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        &:hover  {
+            color: #fff;
+            text-shadow: 0 0 5px $tier-color2,
+            0 0 25px $tier-color2,
+            0 0 50px $tier-color2,
+            0 0 100px$tier-color2;
+        
+        }
+    }
+    .t3 {       
+        animation-name: nm;
+        animation-duration: 10s;
+        animation-iteration-count: infinite; 
+        &:hover  {
+            color: #fff;
+            text-shadow: 0 0 5px $tier-color3,
+            0 0 25px $tier-color3,
+            0 0 50px $tier-color3,
+            0 0 100px$tier-color3;
+            
+        }
+    }
+    .t4 {
+        animation-name: easy;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        &:hover  {
+            color: #fff;
+            text-shadow: 0 0 5px $tier-color4,
+            0 0 25px $tier-color4,
+            0 0 50px $tier-color4,
+            0 0 100px$tier-color4;
+
+        }
+    }
+//ANIMACIÓN DE OPACIDAD PARA TITULOS DE LOS TIERS!
+        @keyframes extreme {
+            0% {
+            opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1.5;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @keyframes epic {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1.5;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            } 
+        }
+        @keyframes nm {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1.5;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @keyframes easy {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1.5;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+}
+//Responsives!!
+//Responsive de proyectos.html
+@media (max-width: 768px) {
+    .futureProyect {
+        flex-direction: column;
+        .albums {
+            flex: 0 0 100%;
+            margin: 10px 0;
+        }
+    }
+  }
+
+//Responsive de tiers.html
+@media (max-width: 767px) {
+    .carousel-inner img {
+      width: 100%;
+      height: auto; // Ajusta la altura automáticamente para mantener la proporción
+    }
+  
+    .carousel {
+      max-width: 100%;
+    }
+  }
