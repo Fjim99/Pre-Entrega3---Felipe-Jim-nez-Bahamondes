@@ -12,6 +12,9 @@ header {
   font-family: 'kalam', cursive; }
   header nav .custom-navbar-color {
     background-color: #ABEBC6; }
+    header nav .custom-navbar-color h1 {
+      text-align: center;
+      font-family: 'kalam', cursive; }
     header nav .custom-navbar-color ul {
       display: flex;
       flex-direction: column;
@@ -156,6 +159,8 @@ main .card-wrap {
 
 .ctbContent {
   font-family: 'kalam', cursive; }
+  .ctbContent .tl {
+    padding-top: 1rem; }
   .ctbContent .example {
     margin-top: 1rem;
     margin-bottom: 20px;
