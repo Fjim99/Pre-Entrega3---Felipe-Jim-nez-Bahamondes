@@ -166,8 +166,6 @@ main .card-wrap {
   .biografia figure img {
     border: 2px solid #10dc76;
     padding: 10px; }
-  .biografia figure figcapitation .miniBio {
-    border-radius: 50px solid #10dc76; }
 
 .ctbContent {
   font-family: 'kalam', cursive; }
@@ -275,6 +273,12 @@ main .card-wrap {
   .futureProyect .albums {
     flex: 0 0 100%;
     margin: 10px 0; } }
+
+@media (max-width: 768px) {
+  figure img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; } }
 
 @media (max-width: 767px) {
   .carousel-inner img {

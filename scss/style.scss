@@ -93,12 +93,7 @@
         img {
             border: 2px solid #10dc76;
             padding: 10px;
-        }
-        figcapitation {
-            .miniBio {
-                border-radius: 50px solid #10dc76;
-            }
-        }
+        }  
     }
 }
 //Estilos de tiers.html
@@ -263,6 +258,17 @@
         margin: 10px 0;
     }
 }
+//Responsive sobre-mi.html
+@media (max-width: 768px) {
+    figure {
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+        }
+    }
+}
+
 
 //Responsive de tiers.html
 @media (max-width: 767px) {
