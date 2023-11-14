@@ -27,6 +27,13 @@
                 margin: 0 auto; 
                 max-width: 100%; 
             }
+            h3 {
+                font-size: 1.5rem;
+                padding-top: 15px;
+            }
+            .titleLink {
+                font-size: 1.2rem;
+            }
         }
     }
 }
@@ -53,6 +60,15 @@
         font-family: 'kalam', cursive;
         font-size: 1.5rem;
     }
+    .faq {
+        details {
+            font-size: 1.5rem;
+            p {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
 }
 //Estilos de sobre-mi.html
 .biografia {
@@ -77,6 +93,11 @@
         img {
             border: 2px solid #10dc76;
             padding: 10px;
+        }
+        figcapitation {
+            .miniBio {
+                border-radius: 50px solid #10dc76;
+            }
         }
     }
 }
@@ -232,6 +253,16 @@
         }
     }
   }
+@media only screen and (max-width: 767px) {
+    .futureProyect {
+        flex-direction: column;
+    }
+
+    .futureProyect .albums {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+}
 
 //Responsive de tiers.html
 @media (max-width: 767px) {

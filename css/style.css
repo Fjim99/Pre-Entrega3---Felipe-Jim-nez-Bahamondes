@@ -115,6 +115,11 @@ main .card-wrap {
         display: block;
         margin: 0 auto;
         max-width: 100%; }
+      .mainProyects .futureProyect .albums h3 {
+        font-size: 1.5rem;
+        padding-top: 15px; }
+      .mainProyects .futureProyect .albums .titleLink {
+        font-size: 1.2rem; }
 
 .about {
   font-family: 'kalam', cursive; }
@@ -134,6 +139,11 @@ main .card-wrap {
   .about .container3 {
     font-family: 'kalam', cursive;
     font-size: 1.5rem; }
+  .about .faq details {
+    font-size: 1.5rem; }
+    .about .faq details p {
+      padding-left: 20px;
+      padding-right: 20px; }
 
 .biografia .intro {
   font-family: 'kalam', cursive;
@@ -156,6 +166,8 @@ main .card-wrap {
   .biografia figure img {
     border: 2px solid #10dc76;
     padding: 10px; }
+  .biografia figure figcapitation .miniBio {
+    border-radius: 50px solid #10dc76; }
 
 .ctbContent {
   font-family: 'kalam', cursive; }
@@ -256,6 +268,13 @@ main .card-wrap {
     .futureProyect .albums {
       flex: 0 0 100%;
       margin: 10px 0; } }
+
+@media only screen and (max-width: 767px) {
+  .futureProyect {
+    flex-direction: column; }
+  .futureProyect .albums {
+    flex: 0 0 100%;
+    margin: 10px 0; } }
 
 @media (max-width: 767px) {
   .carousel-inner img {
