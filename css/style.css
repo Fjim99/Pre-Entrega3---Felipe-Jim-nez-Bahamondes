@@ -31,7 +31,7 @@ header {
           font-size: 50px; }
           header nav .custom-navbar-color ul li a:hover {
             background-color: #25d87b;
-            color: #fff;
+            color: #ffffff;
             border-color: #25d87b; }
 
 footer {
@@ -124,6 +124,7 @@ main .card-wrap {
 .about {
   font-family: 'kalam', cursive; }
   .about .pastilla {
+    font-size: 3rem;
     margin-top: 1rem;
     border: 2px;
     padding: 10px;
@@ -132,18 +133,32 @@ main .card-wrap {
     background-color: #ABEBC6; }
   .about .container1 {
     font-family: 'kalam', cursive;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    background-color: #CCD1D1;
+    padding: 10px;
+    border-radius: 40px; }
   .about .container2 {
     font-family: 'kalam', cursive;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    background-color: #CCD1D1;
+    padding: 10px;
+    border-radius: 40px; }
   .about .container3 {
     font-family: 'kalam', cursive;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    background-color: #CCD1D1;
+    padding: 10px;
+    border-radius: 40px; }
   .about .faq details {
     font-size: 1.5rem; }
     .about .faq details p {
       padding-left: 20px;
       padding-right: 20px; }
+
+.biografia .myTitle {
+  font-family: 'kalam', cursive;
+  font-size: 3rem;
+  padding-top: 1rem; }
 
 .biografia .intro {
   font-family: 'kalam', cursive;
@@ -152,7 +167,7 @@ main .card-wrap {
 .biografia .example {
   font-family: 'kalam', cursive;
   font-size: 130%;
-  background-color: #ABEBC6;
+  background-color: #CCD1D1;
   border-radius: 40px;
   padding: 20px;
   padding-top: 15px;
@@ -175,7 +190,7 @@ main .card-wrap {
     margin-top: 1rem;
     margin-bottom: 20px;
     font-size: 130%;
-    background-color: #ABEBC6;
+    background-color: #CCD1D1;
     border-radius: 40px;
     padding: 20px;
     padding-top: 15px;

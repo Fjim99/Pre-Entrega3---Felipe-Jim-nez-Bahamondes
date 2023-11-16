@@ -41,6 +41,7 @@
 .about {
     font-family: 'kalam', cursive;
     .pastilla {
+        font-size: 3rem;
         margin-top: 1rem;
         border: 2px;
         padding: 10px;
@@ -51,14 +52,23 @@
     .container1 {
         font-family: 'kalam', cursive;
         font-size: 1.5rem;
+        background-color: $filling;
+        padding: 10px;
+        border-radius: 40px;
     }
     .container2 {
         font-family: 'kalam', cursive;
         font-size: 1.5rem;
+        background-color: $filling;
+        padding: 10px;
+        border-radius: 40px;
     }
     .container3 {
         font-family: 'kalam', cursive;
         font-size: 1.5rem;
+        background-color: $filling;
+        padding: 10px;
+        border-radius: 40px;
     }
     .faq {
         details {
@@ -72,6 +82,11 @@
 }
 //Estilos de sobre-mi.html
 .biografia {
+    .myTitle {
+        font-family: 'kalam', cursive;
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
     .intro {
         font-family: 'kalam', cursive;
         font-size: 130%;
@@ -79,7 +94,7 @@
     .example {
         font-family: 'kalam', cursive;
         font-size: 130%;
-        background-color: $color-content;
+        background-color: $filling;
         border-radius: 40px;
         padding: 20px;
         padding-top: 15px;
@@ -106,7 +121,7 @@
         margin-top: 1rem;
         margin-bottom: 20px;
         font-size: 130%;
-        background-color: $color-content;
+        background-color: $filling;
         border-radius: 40px;
         padding: 20px;
         padding-top: 15px;
