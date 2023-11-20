@@ -295,9 +295,92 @@ main .card-wrap {
     height: auto;
     max-width: 300px; } }
 
+.contentResponsive {
+  display: none; }
+  @media (min-width: 1025px) {
+    .contentResponsive {
+      display: none; } }
+
 @media (max-width: 767px) {
-  .carousel-inner img {
-    width: 100%;
-    height: auto; }
-  .carousel {
-    max-width: 100%; } }
+  .contentResponsive {
+    display: block; }
+    .contentResponsive .containerSplus .tr1 {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerSplus .dates {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerS .tr2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerS .dates2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerA .tr3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerA .dates3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerB .tr4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; }
+    .contentResponsive .containerB .dates4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; } }
+
+@media (max-width: 768px) {
+  .contentResponsive {
+    display: block; }
+    .contentResponsive .containerSplus .tr1 {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerSplus .dates {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerS .tr2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerS .dates2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerA .tr3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerA .dates3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerB .tr4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; }
+    .contentResponsive .containerB .dates4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; } }
+
+@media (max-width: 1024px) {
+  .contentResponsive {
+    display: block; }
+    .contentResponsive .containerSplus .tr1 {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerSplus .dates {
+      color: #fff;
+      text-shadow: 0 0 5px #E8A01C, 0 0 25px #E8A01C, 0 0 50px #E8A01C, 0 0 100px #E8A01C; }
+    .contentResponsive .containerS .tr2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerS .dates2 {
+      color: #fff;
+      text-shadow: 0 0 5px #D60EE6, 0 0 25px #D60EE6, 0 0 50px #D60EE6, 0 0 100px #D60EE6; }
+    .contentResponsive .containerA .tr3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerA .dates3 {
+      color: #fff;
+      text-shadow: 0 0 5px #0EE669, 0 0 25px #0EE669, 0 0 50px #0EE669, 0 0 100px #0EE669; }
+    .contentResponsive .containerB .tr4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; }
+    .contentResponsive .containerB .dates4b {
+      color: #fff;
+      text-shadow: 0 0 5px #3EA8E6, 0 0 25px #3EA8E6, 0 0 50px #3EA8E6, 0 0 100px #3EA8E6; } }

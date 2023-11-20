@@ -286,13 +286,219 @@
 
 
 //Responsive de tiers.html
+.contentResponsive{
+    display: none;
+    @media (min-width: 1025px) {
+        display: none;
+    }
+}
+
 @media (max-width: 767px) {
-    .carousel-inner img {
-      width: 100%;
-      height: auto; // Ajusta la altura automáticamente para mantener la proporción
+    .contentResponsive{
+        display: block;
+        .containerSplus{
+            .tr1{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+            .dates{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+        }
+        .containerS{
+            .tr2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+            .dates2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+        }
+        .containerA{
+            .tr3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+            .dates3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+        }
+        .containerB{
+            .tr4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+            .dates4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+        }
     }
-  
-    .carousel {
-      max-width: 100%;
+}
+@media (max-width: 768px) {
+    .contentResponsive{
+        display: block;
+        .containerSplus{
+            .tr1{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+            .dates{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+        }
+        .containerS{
+            .tr2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+            .dates2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+        }
+        .containerA{
+            .tr3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+            .dates3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+        }
+        .containerB{
+            .tr4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+            .dates4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+        }
     }
-  }
+}
+@media (max-width: 1024px) {
+    .contentResponsive{
+        display: block;
+        .containerSplus{
+            .tr1{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+            .dates{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color1,
+                0 0 25px $tier-color1,
+                0 0 50px $tier-color1,
+                0 0 100px$tier-color1;
+            }
+        }
+        .containerS{
+            .tr2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+            .dates2{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color2,
+                0 0 25px $tier-color2,
+                0 0 50px $tier-color2,
+                0 0 100px$tier-color2;
+            }
+        }
+        .containerA{
+            .tr3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+            .dates3{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color3,
+                0 0 25px $tier-color3,
+                0 0 50px $tier-color3,
+                0 0 100px$tier-color3;
+            }
+        }
+        .containerB{
+            .tr4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+            .dates4b{
+                color: #fff;
+                text-shadow: 0 0 5px $tier-color4,
+                0 0 25px $tier-color4,
+                0 0 50px $tier-color4,
+                0 0 100px$tier-color4;
+            }
+        }
+    }
+}
+
+
