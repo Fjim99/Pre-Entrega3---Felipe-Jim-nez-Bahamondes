@@ -10,29 +10,33 @@ header {
   width: 100%;
   justify-content: center;
   font-family: 'kalam', cursive; }
-  header nav .custom-navbar-color {
-    background-color: #ABEBC6; }
-    header nav .custom-navbar-color h1 {
-      text-align: center;
-      font-family: 'kalam', cursive; }
-    header nav .custom-navbar-color ul {
-      display: flex;
-      flex-direction: column;
+  header nav h1 {
+    text-align: center;
+    font-family: 'kalam', cursive; }
+    header nav h1 a {
+      color: black;
+      text-decoration: none; }
+    header nav h1 .navbar-toggler {
+      background-color: black;
+      border-color: #ABEBC6; }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 0; }
+    header nav ul li {
       width: 100%;
-      height: fit-content;
-      padding: 0; }
-      header nav .custom-navbar-color ul li {
-        width: 100%;
-        list-style: none;
-        text-align: center;
-        padding: 4px 0; }
-        header nav .custom-navbar-color ul li a {
-          color: #25d87b;
-          font-size: 50px; }
-          header nav .custom-navbar-color ul li a:hover {
-            background-color: #25d87b;
-            color: #ffffff;
-            border-color: #25d87b; }
+      list-style: none;
+      text-align: center;
+      padding: 4px 0; }
+      header nav ul li a {
+        color: #25d87b;
+        font-size: 50px; }
+        header nav ul li ahover {
+          background-color: #25d87b;
+          color: #ffffff;
+          border-color: #25d87b; }
 
 footer {
   background-color: #ABEBC6;
@@ -185,7 +189,15 @@ main .card-wrap {
 .ctbContent {
   font-family: 'kalam', cursive; }
   .ctbContent .tl {
-    padding-top: 1rem; }
+    font-size: 3rem;
+    margin-top: 1rem;
+    border: 2px;
+    padding: 10px;
+    border-radius: 40px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ABEBC6; }
   .ctbContent .example {
     margin-top: 1rem;
     margin-bottom: 20px;
